@@ -1,8 +1,8 @@
 #include <stdlib.h>
-#include <time.h
+#include <time.h>
 #include <stdio.h>
 /**
-  *main - Entry point
+  *main: Entry point
   *Description: 'just the last digit of a number'
   *Return: always 0
   */
@@ -24,7 +24,8 @@ int main(void)
 	}
 	else
 	{
-		printf('Last digit of %d is %d and less than 6 and not 0\n", n, ld);
+		printf("Last digit of %d is %d and less than 6 and not 0\n", n, ld);
+		;
 	}
 	return (0);
 }

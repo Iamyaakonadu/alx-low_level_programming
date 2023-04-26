@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 /**
-  *main - Entry point
-  *Description: 'prints_putcharto stdout'
+  *main: Entry point
+  *Description:  prints _putchar
   *Return: Always 0
   */
-int main(void);
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');

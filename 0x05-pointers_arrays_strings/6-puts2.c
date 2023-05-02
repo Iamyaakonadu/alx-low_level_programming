@@ -5,7 +5,7 @@
   *@str: the strings to be treated
   *Return: void
   */
-void puts2(char *str)
+void puts2(char *str);
 {
 
 	int i;

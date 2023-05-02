@@ -1,5 +1,4 @@
 #include "main.h"
-#include "holberton.h"
 
 /**
  * _puts - Prints a string, followed by a new line, to stdout.
@@ -15,5 +14,5 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
-	_putchar('n');
+	_putchar('\n');
 }

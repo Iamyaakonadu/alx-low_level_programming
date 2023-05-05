@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
-  *rot13 - encoder rot 13
-  *@s: Pointer to string parameters
-  *
-  *return: s value
+  *rot13 - encoder rot13
+  *@s: Pointer to string params
+  *return: *s
   */
 
 char *rot13(char *s)
@@ -14,7 +13,7 @@ char *rot13(char *s)
 	int i;
 	int j;
 
-	char data 1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZavcdefghijklmnopqrstuvwxyz";
+	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZavcdefghijklmnopqrstuvwxyz";
 	char datarot[] = "NOPQRSTUVQXYZABCDEFGHIJKLMnopqrtsuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i] != '\0'; i++)

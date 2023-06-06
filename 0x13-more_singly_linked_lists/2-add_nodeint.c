@@ -1,13 +1,12 @@
 #include "lists.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
-*add_nodeint it adds a new node at the start of a linked list
+*add_nodeint - it adds a new node at the start of a linked list
 *@head: pointer to the first node in thlist
 *@n: data to insert the new node
 *
-*Return: pointer to the new node, or NULL if it fails.
+*Return: the address of the new element, or NULL if it failed
 */
 
 listint_t *add_nodeint(listint_t **head, const int n)
